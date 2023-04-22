@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body 
+{
+    background-color: aqua;
+    font-family: 'Times New Roman', Times, serif;
+}
+.grid
+{
+    width: 70%;
+    border: 5px solid #222;
+    margin: 50px auto;
+    font-size: 50px;
+    
+}
