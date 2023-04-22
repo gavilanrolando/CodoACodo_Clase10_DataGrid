@@ -11,8 +11,16 @@ body
 .grid
 {
     width: 70%;
-    border: 5px solid #222;
+    border: 5px #222;
     margin: 50px auto;
     font-size: 50px;
-    
+    }
+.grid div {
+    padding: 20px;
+    color: aliceblue;
+    line-height: 50px;
+    text-align: center;
+    background-color: #bb6565;
+    border: 5px solid #222;
+
 }
