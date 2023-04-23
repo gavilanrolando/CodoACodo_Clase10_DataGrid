@@ -14,13 +14,28 @@ body
     border: 5px #222;
     margin: 50px auto;
     font-size: 50px;
-    }
+    display: grid ;
+    grid-template-columns: 20% 70% 10%;
+    grid-template-rows: 200px 200px 200px 200px;
+    grid-gap: 20px;
+
+   
+
+}
 .grid div {
     padding: 20px;
     color: aliceblue;
     line-height: 50px;
     text-align: center;
-    background-color: #bb6565;
+    background: #f016cb;
     border: 5px solid #222;
-
+    
+    
+}
+.grid .menu {
+    background-color: blue;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    /*grid-area: span 4;*/
+    
 }
